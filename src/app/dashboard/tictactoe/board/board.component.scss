@@ -4,7 +4,7 @@ main {
     grid-gap: 5px;
     margin-top: 25px;
 }
-h1 {
+h1, h2{
     text-shadow:
             1px 1px 0 #5267E1,
             1px -1px 0 #5267E1,
@@ -13,7 +13,7 @@ h1 {
     color: white;
     transition: all 1s;
 }
-h1:hover {
+h1, h2:hover {
     text-shadow:
             1px 1px 0 black,
             1px -1px 0 black,
