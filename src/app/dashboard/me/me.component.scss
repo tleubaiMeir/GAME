@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 15px;
+    text-shadow:
+            1px 1px 10px #5267E1,
+            1px -1px 10px #5267E1,
+            -1px 1px 10px #5267E1,
+            -1px -1px 10px #5267E1;
+    color: white;
+    transition: all 1s;
+    opacity: 0.8;
+}
+h1:hover{
+    text-shadow:
+            1px 1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            -1px -1px 0 black;
+    opacity: 1;
+}
+.me{
+    border-radius: 50%;
+    width: 15%;
+    margin: 15px 40%;
+}
+.contact div{
+    width: 30%;
+    margin: 20px 32%;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    text-shadow:
+            1px 1px 10px #5267E1,
+            1px -1px 10px #5267E1,
+            -1px 1px 10px #5267E1,
+            -1px -1px 10px #5267E1;
+    transition: 1s;
+}
+a:hover{
+    text-shadow:
+            1px 1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            -1px -1px 0 black;
+}
+.contact div a h2{
+    position: relative;
+    top: 15px;
+    left: 5px;
+}

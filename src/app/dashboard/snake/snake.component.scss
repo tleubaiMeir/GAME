@@ -1,0 +1,25 @@
+.cells {
+    display: flex;
+    flex-wrap: wrap;
+    transform: scale(1.5);
+    margin: 50px 60px;
+    .cell {
+        border: 1px solid #eee;
+    }
+}
+h2 {
+    text-shadow:
+            1px 1px 0 #5267E1,
+            1px -1px 0 #5267E1,
+            -1px 1px 0 #5267E1,
+            -1px -1px 0 #5267E1;
+    color: white;
+    transition: all 1s;
+}
+h2:hover {
+    text-shadow:
+            1px 1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            -1px -1px 0 black;
+}

@@ -1,0 +1,14 @@
+<div class="app">
+    <div class="container">
+        <div class="left_sidebar">
+            <div class="logo"><img src="../../assets/gamepad.png" alt="gamepad_icon"><h1>Game Station</h1></div>
+            <ul>
+                <li *ngFor="let route of routes" (click)="navigateTo(route.path)">{{route.viewvalue}}</li>
+            </ul>
+        </div>
+        <div class="right_sidebar">
+            <router-outlet></router-outlet>
+            <img src="../../assets/minimalizm_synthwave_8_bit_electronic_bit_pikseli_synth_synth_pop_fon_retrowave_8bit_sinti_8bit_8_bit_gorod_siniy.jpg" alt="night_sky">
+        </div>
+    </div>
+</div>

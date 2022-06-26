@@ -1,0 +1,41 @@
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 5px;
+    margin-top: 25px;
+}
+h1 {
+    text-shadow:
+            1px 1px 0 #5267E1,
+            1px -1px 0 #5267E1,
+            -1px 1px 0 #5267E1,
+            -1px -1px 0 #5267E1;
+    color: white;
+    transition: all 1s;
+}
+h1:hover {
+    text-shadow:
+            1px 1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            -1px -1px 0 black;
+}
+.start{
+    background-color: #5267E1;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    border: white;
+    transition: all .3s ease-in-out;
+}
+.start:hover{
+    background: whitesmoke;
+    color: black;
+}
+
+app-square {
+    border: 1px #7086ff solid;
+    height: 200px;
+    box-shadow: 0 0 10px #5267E1;
+}

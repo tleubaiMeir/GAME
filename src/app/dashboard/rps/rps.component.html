@@ -1,0 +1,26 @@
+<div *ngIf="num !== null">
+    <h2 *ngIf="num == 0">rock</h2>
+    <h2 *ngIf="num == 1">paper</h2>
+    <h2 *ngIf="num == 2">scissors</h2>
+    <h2>
+        vs
+    </h2>
+    <h2 *ngIf="enemy == 0">rock</h2>
+    <h2 *ngIf="enemy == 1">paper</h2>
+    <h2 *ngIf="enemy == 2">scissors</h2>
+</div>
+<h2 *ngIf="win">
+    You are won
+</h2>
+<h2 *ngIf="lose">
+    You are lose
+</h2>
+<h2 *ngIf="tie">
+    Tie
+</h2>
+<div>
+    <button (click)="Game(0)">rock</button>
+    <button (click)="Game(1)">paper</button>
+    <button (click)="Game(2)">scissors</button>
+</div>
+
